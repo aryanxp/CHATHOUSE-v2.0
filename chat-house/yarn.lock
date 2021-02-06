@@ -5,6 +5,38 @@ __metadata:
   version: 4
   cacheKey: 7
 
+"@ant-design/colors@npm:^5.0.0":
+  version: 5.0.1
+  resolution: "@ant-design/colors@npm:5.0.1"
+  dependencies:
+    "@ctrl/tinycolor": ^3.3.1
+  checksum: 421b55d9c3350c32bea6f0b8b451aa24e65add9e058eaba1722f76918cffc0c73deef8d9560c044c356fdded8fcb289c16bddc6c3e197b514a0b71d5abed0709
+  languageName: node
+  linkType: hard
+
+"@ant-design/icons-svg@npm:^4.0.0":
+  version: 4.1.0
+  resolution: "@ant-design/icons-svg@npm:4.1.0"
+  checksum: 88ef2ced4d99278d7fb2c338459e18aca8d78be627545e44127b606c8e0f7d15b0133b22697dc0a33b712419e37152db0b800697824204aafb473e2a79ad6374
+  languageName: node
+  linkType: hard
+
+"@ant-design/icons@npm:^4.2.2, @ant-design/icons@npm:^4.4.0":
+  version: 4.4.0
+  resolution: "@ant-design/icons@npm:4.4.0"
+  dependencies:
+    "@ant-design/colors": ^5.0.0
+    "@ant-design/icons-svg": ^4.0.0
+    "@babel/runtime": ^7.11.2
+    classnames: ^2.2.6
+    insert-css: ^2.0.0
+    rc-util: ^5.0.1
+  peerDependencies:
+    react: ">=16.0.0"
+  checksum: d78fb5caf5f70c5ee76bc8c842d39dfc2072160c73e90f9350cdd1b3f770eb6db11d877d81b03990d5d469eb547827e48faa3d3d94e77a8aaad8dfda43ec9339
+  languageName: node
+  linkType: hard
+
 "@babel/code-frame@npm:7.10.4":
   version: 7.10.4
   resolution: "@babel/code-frame@npm:7.10.4"
@@ -1579,6 +1611,13 @@ __metadata:
   version: 10.1.0
   resolution: "@csstools/normalize.css@npm:10.1.0"
   checksum: 75d6c92d2ed1c643dd3f33c07feda78983790717c1b03c8b6a35215feac571d1d79e65a3668774eb420bd352651a2c33afd53cd580a25e93b6c6fd8bb0756071
+  languageName: node
+  linkType: hard
+
+"@ctrl/tinycolor@npm:^3.3.1":
+  version: 3.3.4
+  resolution: "@ctrl/tinycolor@npm:3.3.4"
+  checksum: fbeb3caa8d5cd8245d5de9bf71d5fa57f69beed96c8ee0243e6f986ab23419abd703b920cc637066e9c2d08657d2b6cb1f4abad91e522d597b89404795056c09
   languageName: node
   linkType: hard
 
@@ -3359,6 +3398,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"axios@npm:^0.21.1":
+  version: 0.21.1
+  resolution: "axios@npm:0.21.1"
+  dependencies:
+    follow-redirects: ^1.10.0
+  checksum: 864fb7b5d077d236737f10adca53bf451a93f35a15271f56fba8da07265a02d26b7d881b935a6697dc6adb0549ea3e56d2eecb403edaa3bb78f6479901c10f69
+  languageName: node
+  linkType: hard
+
 "axobject-query@npm:^2.2.0":
   version: 2.2.0
   resolution: "axobject-query@npm:2.2.0"
@@ -4163,11 +4211,13 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "chat-house@workspace:."
   dependencies:
+    "@ant-design/icons": ^4.4.0
     "@testing-library/jest-dom": ^5.11.4
     "@testing-library/react": ^11.1.0
     "@testing-library/user-event": ^12.1.10
     eslint-config-react-app: ^6.0.0
     react: ^17.0.1
+    react-chat-engine: ^1.5.11
     react-dom: ^17.0.1
     react-scripts: 4.0.2
     web-vitals: ^1.0.1
@@ -4279,6 +4329,13 @@ __metadata:
     isobject: ^3.0.0
     static-extend: ^0.1.1
   checksum: 6411679ad4d2bde81b62ad721d4771d108d5d8ef32805d10ebfa6f1d6bdcfd5cb6dfea5232b85221f079e42691c36cf2db05a5e76b87ba8f6deb37a2c23a4a41
+  languageName: node
+  linkType: hard
+
+"classnames@npm:^2.2.6":
+  version: 2.2.6
+  resolution: "classnames@npm:2.2.6"
+  checksum: 490eaeca5931846737ffd33e472a701d268d5b8bc5717dd4cf108a127b06e86e05350e06799abbbe763a0e4c945b4217f6700b7ae00ddc703505682c370e5cf2
   languageName: node
   linkType: hard
 
@@ -6631,7 +6688,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"follow-redirects@npm:^1.0.0":
+"follow-redirects@npm:^1.0.0, follow-redirects@npm:^1.10.0":
   version: 1.13.2
   resolution: "follow-redirects@npm:1.13.2"
   peerDependenciesMeta:
@@ -7613,6 +7670,13 @@ fsevents@^1.2.7:
   version: 1.3.8
   resolution: "ini@npm:1.3.8"
   checksum: 62189ce7ea44c5778e757e4232c581212e838f3c39e79d931bb9152fd4b9275f09fb20b96afdd60ba9f5d7996b92486cad6cc617fcb84ff4beedd1b33b86221e
+  languageName: node
+  linkType: hard
+
+"insert-css@npm:^2.0.0":
+  version: 2.0.0
+  resolution: "insert-css@npm:2.0.0"
+  checksum: 5774edbc9c5982b4dc32e4781f34e5ced08be65ef4c9b494d43508a5b0c872202cd73ccf2af541efef4ed07f08b85802c255f619545f5a24e5fc25a45df27bd2
   languageName: node
   linkType: hard
 
@@ -9151,6 +9215,13 @@ fsevents@^1.2.7:
   dependencies:
     lodash._reinterpolate: ^3.0.0
   checksum: 45546a5b76376b138ef4f01aa2722813127c639428eb9baef3fbac176b509ee2dab5cb9d1ee8267dbeeef8d49371f9a748af3df83649bf8b75fa54993f65b7aa
+  languageName: node
+  linkType: hard
+
+"lodash.throttle@npm:^4.1.1":
+  version: 4.1.1
+  resolution: "lodash.throttle@npm:4.1.1"
+  checksum: d9107c79033f609f23552f48f5ba93b8a98a07a2b38914745a48d33f18704a4c6a125610ad2bab2a0139974d1da7c5d6a24271243e21571f01e21bf3b2f6b21d
   languageName: node
   linkType: hard
 
@@ -11759,6 +11830,20 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
+"rc-util@npm:^5.0.1":
+  version: 5.8.0
+  resolution: "rc-util@npm:5.8.0"
+  dependencies:
+    "@babel/runtime": ^7.12.5
+    react-is: ^16.12.0
+    shallowequal: ^1.1.0
+  peerDependencies:
+    react: ">=16.9.0"
+    react-dom: ">=16.9.0"
+  checksum: 34d8d5a81befbae99139692a31d10bd5d128ee3890ab12a27625c8668b6fcd7043aee4ae0281df0d482b16a1c267eb43e173959ac7afa91dd5909553e168a2f3
+  languageName: node
+  linkType: hard
+
 "react-app-polyfill@npm:^2.0.0":
   version: 2.0.0
   resolution: "react-app-polyfill@npm:2.0.0"
@@ -11770,6 +11855,22 @@ fsevents@^1.2.7:
     regenerator-runtime: ^0.13.7
     whatwg-fetch: ^3.4.1
   checksum: 96b8bb3bdeb5279ebb73622744dcaba75a2f48861e8353052cb758e33db850845b11fa7da87c52663a4e4ee9ed356069f6a1e42151a74f01dc24bbfbbc5ad79a
+  languageName: node
+  linkType: hard
+
+"react-chat-engine@npm:^1.5.11":
+  version: 1.5.11
+  resolution: "react-chat-engine@npm:1.5.11"
+  dependencies:
+    "@ant-design/icons": ^4.2.2
+    axios: ^0.21.1
+    lodash: ^4.17.20
+    react-grid-system: ^7.1.1
+    react-scroll: ^1.8.1
+    react-websocket: ^2.1.0
+  peerDependencies:
+    react: ^16.0.0
+  checksum: 20667bb747ffb5d77ec6dc75496bd2ee727ca7de81e26720dee9de59c69a85b31d5259c04fdc61e7c260537d864551ff701e67d6816a2d39a15ea48a7e5b4e5d
   languageName: node
   linkType: hard
 
@@ -11825,7 +11926,18 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"react-is@npm:^16.8.1":
+"react-grid-system@npm:^7.1.1":
+  version: 7.1.1
+  resolution: "react-grid-system@npm:7.1.1"
+  dependencies:
+    prop-types: ^15.7.2
+  peerDependencies:
+    react: ^16.8.0
+  checksum: 752926f1806d933833a81df01c31e8df5cf7d60e90f966f5a5db83eb0a78b4818ab996b6b9e8ec9efa6c723b5ad30eb61f85c5470fe67b13f9ff32709df8bb3c
+  languageName: node
+  linkType: hard
+
+"react-is@npm:^16.12.0, react-is@npm:^16.8.1":
   version: 16.13.1
   resolution: "react-is@npm:16.13.1"
   checksum: 11bcf1267a314a522615f626f3ce3727a3a24cdbf61c4d452add3550a7875326669631326cfb1ba3e92b6f72244c32ffecf93ad21c0cad8455d3e169d0e3f060
@@ -11921,6 +12033,29 @@ fsevents@^1.2.7:
   bin:
     react-scripts: ./bin/react-scripts.js
   checksum: acb9d21b4050c4e306ef3df09a7d0c26d19197cacbc3af783ac94e7d38aa68efa7ef43d661c70f8ab82830d4f45dfc21623d807dcdffaf7c6e571e3804f30178
+  languageName: node
+  linkType: hard
+
+"react-scroll@npm:^1.8.1":
+  version: 1.8.1
+  resolution: "react-scroll@npm:1.8.1"
+  dependencies:
+    lodash.throttle: ^4.1.1
+    prop-types: ^15.7.2
+  peerDependencies:
+    react: ^15.5.4 || ^16.0.0
+    react-dom: ^15.5.4 || ^16.0.0
+  checksum: e3c3697ff578f29498faa91e01275dc3e6f26d47913df400bb9d4be116a943fac5982bb8f39608597be91f950bb61546c6141058566054d9767488f242fdd06f
+  languageName: node
+  linkType: hard
+
+"react-websocket@npm:^2.1.0":
+  version: 2.1.0
+  resolution: "react-websocket@npm:2.1.0"
+  peerDependencies:
+    react: ">0.14.5"
+    react-dom: ">0.14.5"
+  checksum: ca00ac608784052a3fa13f87bff2a3d3bd891e2ccf3d7c4c47933b217c7a9ce6516d6afd02023e445b74a85876e369449569afa5d65e937c1b4250cdb9d1eb76
   languageName: node
   linkType: hard
 
@@ -12848,6 +12983,13 @@ resolve@1.18.1:
   bin:
     sha.js: ./bin.js
   checksum: 7554240ab76e683f7115123eb4815aae16b5fc6f2cdff97009831ad5b17b107ffcef022526211f7306957bce7a67fa4d0ccad79a3040c5073414365595e90516
+  languageName: node
+  linkType: hard
+
+"shallowequal@npm:^1.1.0":
+  version: 1.1.0
+  resolution: "shallowequal@npm:1.1.0"
+  checksum: 15820dd544ce15521565c366940a46dcbe0f093c1336f6259c7b3e2490ca10135645ee262778f555d3ccc38283207f2f0a41e9a0f26888b5d5159f2904c4ac68
   languageName: node
   linkType: hard
 
