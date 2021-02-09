@@ -29,7 +29,6 @@ const TheirMessage = ({ lastMessge, message }) => {
           {message.text}
         </div>
       )}
-      TheirMessage
     </div>
   );
 };
