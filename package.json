@@ -1,6 +1,6 @@
 {
-  "name": "chat-house",
   "homepage": "https://aryanxp.github.io/CHATHOUSE-v2.0/",
+  "name": "chat-house",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

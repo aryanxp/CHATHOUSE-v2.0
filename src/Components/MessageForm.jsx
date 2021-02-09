@@ -6,6 +6,11 @@ const MessageForm = (props) => {
   const [value, setValue] = useState("");
   const { chatId, creds } = props;
 
+  const handleChange = (event) => {
+    setValue(event.target.value);
+    isTyping(props, chatId, "aryanxp");
+  };
+
   const handleSubmit = (event) => {
     event.preventDefault();
 
@@ -16,12 +21,6 @@ const MessageForm = (props) => {
     }
 
     setValue("");
-  };
-
-  const handleChange = (event) => {
-    setValue(event.target.value);
-
-    isTyping(props, chatId);
   };
 
   const handleUpload = (event) => {
