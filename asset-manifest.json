@@ -1,22 +1,13 @@
 {
   "files": {
-    "main.css": "/CHATHOUSE-v2.0/static/css/main.3a252141.chunk.css",
-    "main.js": "/CHATHOUSE-v2.0/static/js/main.08b8557e.chunk.js",
-    "main.js.map": "/CHATHOUSE-v2.0/static/js/main.08b8557e.chunk.js.map",
-    "runtime-main.js": "/CHATHOUSE-v2.0/static/js/runtime-main.ba5bda6e.js",
-    "runtime-main.js.map": "/CHATHOUSE-v2.0/static/js/runtime-main.ba5bda6e.js.map",
-    "static/js/2.aff0f8ec.chunk.js": "/CHATHOUSE-v2.0/static/js/2.aff0f8ec.chunk.js",
-    "static/js/2.aff0f8ec.chunk.js.map": "/CHATHOUSE-v2.0/static/js/2.aff0f8ec.chunk.js.map",
-    "static/js/3.c1df759c.chunk.js": "/CHATHOUSE-v2.0/static/js/3.c1df759c.chunk.js",
-    "static/js/3.c1df759c.chunk.js.map": "/CHATHOUSE-v2.0/static/js/3.c1df759c.chunk.js.map",
+    "main.css": "/CHATHOUSE-v2.0/static/css/main.dcfef923.css",
+    "main.js": "/CHATHOUSE-v2.0/static/js/main.93c5fde7.js",
     "index.html": "/CHATHOUSE-v2.0/index.html",
-    "static/css/main.3a252141.chunk.css.map": "/CHATHOUSE-v2.0/static/css/main.3a252141.chunk.css.map",
-    "static/js/2.aff0f8ec.chunk.js.LICENSE.txt": "/CHATHOUSE-v2.0/static/js/2.aff0f8ec.chunk.js.LICENSE.txt"
+    "main.dcfef923.css.map": "/CHATHOUSE-v2.0/static/css/main.dcfef923.css.map",
+    "main.93c5fde7.js.map": "/CHATHOUSE-v2.0/static/js/main.93c5fde7.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.ba5bda6e.js",
-    "static/js/2.aff0f8ec.chunk.js",
-    "static/css/main.3a252141.chunk.css",
-    "static/js/main.08b8557e.chunk.js"
+    "static/css/main.dcfef923.css",
+    "static/js/main.93c5fde7.js"
   ]
 }
